@@ -1,0 +1,9 @@
+#head {
+    text-align: center;
+    color: black;
+    border-radius:7px;
+    background-color: antiquewhite;
+    margin: 20px 600px;
+    padding: 10px 5px;
+    border: 1px solid black;
+}
