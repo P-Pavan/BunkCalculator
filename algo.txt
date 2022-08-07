@@ -1,0 +1,6 @@
+12 cls 1/8.3%
+6/10 * 100 current  60%
+6+x/12 * 100 = 75; 
+	x = (75/100 * 12) -6
+
+extraClasses = (0.75 * totalClasses) - totalAttended;
