@@ -2,8 +2,15 @@
     text-align: center;
     color: black;
     border-radius:7px;
-    background-color: antiquewhite;
-    margin: 20px 480px;
-    padding: 2px 0px;
-    border: 1px solid black;
+    background-color: white;
 }
+
+#inputField {
+    text-align: center;
+}
+
+body {
+    padding: 0% 20%;
+    background-color: aliceblue;
+}
+
