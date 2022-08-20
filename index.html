@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Home</title>
+    <title>Bunk Calculator</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1 id="head">Bunk Calculator</h1> <br>
+    <h1 id="head"></h1> <br>    <!-- give something --> 
     
-    <div id="inputField">
-        <label for="taken">Total classes taken </label> <br>
-        <input type="text" id="taken"> <br>
-        <label for="attended">Total classes attended </label> <br>
-        <input type="text" id="attended"> <br> <br>
-        <button id="submit">Submit</button>
+    <div id="circle">
+        <div id="inputField"> <br>
+            <label for="taken">Total classes taken </label> <br>
+            <input type="text" id="taken"> <br>
+            <label for="attended">Total classes attended </label> <br>
+            <input type="text" id="attended"> <br> <br>
+            <button id="submit">Submit</button>
+            <p>Your current attendace is <label id="output"></label></p>
+        </div>
     </div>
     <br>
-    <h2 id="output"></h2>
+    <div class="progressBar" style="background-color:white">
+        <div id="bar" style="height: 20px;width:1%;background-color: gray;"></div>
+    </div>
     <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
